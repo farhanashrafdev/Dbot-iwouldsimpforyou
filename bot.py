@@ -20,15 +20,6 @@ async def couldyouboostforme(ctx):
     await ctx.send("Read My Name NIGGA")
 
 @client.command()
-async def there?(ctx):
-    await ctx.send("Hazir Janab")
-    
-    
-@client.command()
-async def there(ctx):
-    await ctx.send("Hazir Janab")
-    
-@client.command()
 async def perfect(ctx):
     await ctx.send("Chal hun mera put chuti kr")
     
