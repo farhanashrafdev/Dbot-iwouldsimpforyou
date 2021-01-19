@@ -57,6 +57,7 @@ async def sakc(ctx):
 @client.command()
 async def danedaar(ctx):
     await ctx.send("ABU BULARHE HAIN APKO @BlackMamba#0468")
+    
 @client.command()
 async def chutiya(ctx):
     await ctx.send("ABU BULARHE HAIN APKO @Pudding Senpai#0717")
