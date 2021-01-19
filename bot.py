@@ -39,4 +39,4 @@ async def banBlackMamba(ctx):
     await ctx.send("User BlackMamba#0468 will be removed after 1 minute")
     
     
-client.run("os.environ['BOT_KEY']") 
+client.run(os.environ['BOT_KEY']) 
