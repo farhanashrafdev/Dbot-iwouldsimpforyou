@@ -25,8 +25,17 @@ async def perfect(ctx):
     
 
 @client.command()
-async def activitystatus(ctx):
-    await ctx.send("Activity Status: CLOUD Activity enabled 24/7")
+async def hey(ctx):
+    await ctx.send("Chal hun mera put chuti kr")
+    
+    
+@client.command()
+async def BC(ctx):
+    await ctx.send("Bht Cute")
+    
+@client.command()
+async def banBlackMamba#0468(ctx):
+    await ctx.send("User BlackMamba#0468 will be removed after 1 minute")
     
     
 client.run("ODAwOTUwNTg2ODUzMDMxOTY3.YAZlXA.x83RaYk0JSnF1ha4ZCuWCQp2z00") 
