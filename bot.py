@@ -55,7 +55,7 @@ async def danedaar(ctx):
     
 @client.command()
 async def chutiya(ctx):
-    usman = @Xam#0489
+    usman = "Xam"
     await ctx.send("ABU BULARHE HAIN APKO "+ f"{usman.mention}")
     
 @client.command()
