@@ -54,7 +54,11 @@ async def danedaar(ctx):
     
 @client.command()
 async def chutiya(ctx):
-    await ctx.send("ABU BULARHE HAIN APKO "+ f"{"usman".mention}")
+    await ctx.send("ABU BULARHE HAIN APKO Pudding Senpai#0717")
+    
+@client.command()
+async def kutiya(ctx):
+    await ctx.send("ABU BULARHE HAIN APKO Awais#5009")
     
 @client.command()
 async def banBlackMamba(ctx):
