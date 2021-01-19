@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-client = commands.Bot(command_prefix="$")
+client = commands.Bot(command_prefix=".")
 
 @client.event
 async def on_Ready():
@@ -25,9 +25,8 @@ async def perfect(ctx):
     
 
 @client.command()
-async def icesetto.(ctx):
-    await ctx.send("Verifying owner 
-owner verification sucessfull
-command prefix set to .")
+async def activitystatus(ctx):
+    await ctx.send("Activity Status: CLOUD Activity enabled 24/7")
+    
     
 client.run("ODAwOTUwNTg2ODUzMDMxOTY3.YAZlXA.x83RaYk0JSnF1ha4ZCuWCQp2z00") 
