@@ -36,7 +36,6 @@ async def couldyouboostforme(ctx):
 async def perfect(ctx):
     await ctx.send("Chal hun mera put chuti kr")
     
-
 @client.command()
 async def hey(ctx):
     await ctx.send("Chal hun mera put chuti kr")
