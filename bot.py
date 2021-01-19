@@ -48,7 +48,11 @@ async def BC(ctx):
     
 @client.command()
 async def sakc(ctx):
-    await ctx.send("Xam#0489")
+    await ctx.send("@Xam#0489")
+    
+@client.command()
+async def chutiya(ctx):
+    await ctx.send("@Pudding Senpai#0717")
     
 @client.command()
 async def banBlackMamba(ctx):
