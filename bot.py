@@ -1,4 +1,5 @@
 import discord
+import os
 from discord.ext import commands
 
 client = commands.Bot(command_prefix=".")
@@ -34,8 +35,8 @@ async def BC(ctx):
     await ctx.send("Bht Cute")
     
 @client.command()
-async def banBlackMamba#0468(ctx):
+async def banBlackMamba(ctx):
     await ctx.send("User BlackMamba#0468 will be removed after 1 minute")
     
     
-client.run("ODAwOTUwNTg2ODUzMDMxOTY3.YAZlXA.x83RaYk0JSnF1ha4ZCuWCQp2z00") 
+client.run("os.environ['BOT_KEY']") 
