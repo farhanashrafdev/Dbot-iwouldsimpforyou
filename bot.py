@@ -47,6 +47,10 @@ async def BC(ctx):
     await ctx.send("Bht Cute")
     
 @client.command()
+async def sakc(ctx):
+    await ctx.send("SAMEER")
+    
+@client.command()
 async def banBlackMamba(ctx):
     await ctx.send("User BlackMamba#0468 will be removed after 1 minute")
     
