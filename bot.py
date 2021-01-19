@@ -41,7 +41,6 @@ async def perfect(ctx):
 async def hey(ctx):
     await ctx.send("Chal hun mera put chuti kr")
     
-    
 @client.command()
 async def BC(ctx):
     await ctx.send("Bht Cute")
