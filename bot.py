@@ -50,10 +50,6 @@ async def sakc(ctx):
     await ctx.send("ABU BULARHE HAIN APKO @Xam#0489")
     
 @client.command()
-async def sakc(ctx):
-    await ctx.send("@Xam#0489")
-    
-@client.command()
 async def danedaar(ctx):
     await ctx.send("ABU BULARHE HAIN APKO @BlackMamba#0468")
     
