@@ -23,4 +23,11 @@ async def couldyouboostforme(ctx):
 async def perfect(ctx):
     await ctx.send("Chal hun mera put chuti kr")
     
+
+@client.command()
+async def icesetto.(ctx):
+    await ctx.send("Verifying owner 
+owner verification sucessfull
+command prefix set to .")
+    
 client.run("ODAwOTUwNTg2ODUzMDMxOTY3.YAZlXA.x83RaYk0JSnF1ha4ZCuWCQp2z00") 
