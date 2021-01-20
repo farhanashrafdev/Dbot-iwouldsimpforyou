@@ -27,6 +27,10 @@ async def hello(ctx):
 @client.command()
 async def day(ctx):
     await ctx.send("Today is an amazing day")
+    
+@client.command()
+async def dalay(ctx):
+    await ctx.send("Today is an amazing day")
 
 @client.command()
 async def couldyouboostforme(ctx):
