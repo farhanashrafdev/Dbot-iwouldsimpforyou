@@ -49,6 +49,10 @@ async def BC(ctx):
     await ctx.send("Bht Cute")
     
 @client.command()
+async def join(ctx):
+    await ctx.send("Hazir Janab")
+
+@client.command()
 async def sakc(ctx):
     await ctx.send("ABU BULARHE HAIN APKO @Xam#0489")
     
