@@ -18,7 +18,9 @@ async def on_Ready():
 
 #after this line press 2 times enter to make space then write command
 
-
+@client.command()
+async def pudding(ctx):
+    await ctx.send("Intehai koi Kamina insan hai Pudding .")
 
 @client.command()
 async def hello(ctx):
