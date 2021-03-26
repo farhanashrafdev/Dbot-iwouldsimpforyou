@@ -3,7 +3,7 @@ import discord
 import os
 from discord.ext import commands
 
-client = commands.Bot(command_prefix=".")
+client = commands.Bot(command_prefix="e!")
 
 @client.event
 async def on_Ready():
@@ -26,6 +26,11 @@ async def pudding(ctx):
 async def hello(ctx):
     await ctx.send("Hello there baby gurl.")
 
+@client.command()
+async def phcomment(ctx):
+    await ctx.send("<@527429958470205451> Isko dekhein, else i would stop simping for you")
+    
+    
 @client.command()
 async def day(ctx):
     await ctx.send("Today is an amazing day")
